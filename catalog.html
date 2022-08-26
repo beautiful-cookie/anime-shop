@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css"> 
+    <link rel="stylesheet" href="styles/btns.css"> 
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/catalog.css">
+    <link rel="stylesheet" href="libraries/animate.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+    <title>Konoxa</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Konoxa</a> 
+        <div class="right-btns">
+            <a href="catalog.html" class="header-block">Каталог</a>  
+            <a href="#" class="header-block">Доставка и оплата</a>  
+            <a href="#" class="header-block">О нас</a>  
+        </div>
+    </header> 
+
+    <div class="filter-text-container">
+        <a href="#" class="show-all-goods" onclick="showAllGoods()">Показать все товары</a>
+        <a href="#" class="filter-text" onclick="filterToggle()">Фильтр</a>
+    </div>
+
+
+    <div class="filter-wrapper">
+        <div class="filter-cathegories">    
+            <div class="column">
+                <span class="filter-item main-item" id="mugs">Кружки</span>
+                <span class="filter-item">Большие</span>
+                <span class="filter-item">Маленькие</span>
+                <span class="filter-item">Средних размеров</span>
+            </div>
+    
+            <div class="column">
+                <span class="filter-item main-item" id="T-shirts">Футболки</span>
+                <span class="filter-item">Большие</span>
+                <span class="filter-item">Маленькие</span>
+                <span class="filter-item">Средних размеров</span>
+            </div>
+    
+            <div class="column">
+                <span class="filter-item main-item" id="trinkets">Брелки</span>
+                <span class="filter-item">Большие</span>
+                <span class="filter-item">Маленькие</span>
+                <span class="filter-item">Средних размеров</span> 
+            </div>
+
+            <div class="column">
+                <span class="filter-item main-item" id="dakimakuras">Дакимакуры</span>
+                <span class="filter-item">Большие</span>
+                <span class="filter-item">Маленькие</span>
+                <span class="filter-item">Средних размеров</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="item-container">
+            <div class="item mug">
+                <img src="pic/klinok_mug-1.png" alt="#">
+                <a href="#" class="btn-green">Подробнее</a>
+            </div>
+
+            <div class="item mug">
+                <img src="pic/klinok_mug-2.png" alt="#">
+                <a href="#" class="btn-green">Подробнее</a>
+            </div>
+
+            <div class="item mug">
+                <img src="pic/klinok_mug-3.png" alt="#">
+                <a href="#" class="btn-green">Подробнее</a>
+            </div>
+
+
+
+            <div class="item T-shirt">
+                <img src="pic/Tshirt-naruto-1.png" alt="#">
+                <a href="#" class="btn-red">Подробнее</a>
+            </div>
+
+            <div class="item T-shirt">
+                <img src="pic/Tshirt-naruto-2.png" alt="#">
+                <a href="#" class="btn-red">Подробнее</a>
+            </div>
+            
+            <div class="item T-shirt">
+                <img src="pic/Tshirt-naruto-3.png" alt="#">
+                <a href="#" class="btn-red">Подробнее</a>
+            </div>
+
+
+            
+
+            <div class="item dakimakura">
+                <img src="pic/anime-dakimakura-1.png" alt="#">
+                <a href="#" class="btn-yellow">Подробнее</a>
+            </div>
+
+            <div class="item dakimakura">
+                <img src="pic/anime-dakimakura-2.png" alt="#">
+                <a href="#" class="btn-yellow">Подробнее</a>
+            </div>
+
+            <div class="item dakimakura">
+                <img src="pic/anime-dakimakura-3.png" alt="#">
+                <a href="#" class="btn-yellow">Подробнее</a>
+            </div>
+
+
+
+            <div class="item trinket">
+                <img src="pic/trinket-tanziro.png" alt="#">
+                <a href="#" class="btn-purple">Подробнее</a>
+            </div>
+
+            <div class="item trinket">
+                <img src="pic/trinket-nezuko.png" alt="#">
+                <a href="#" class="btn-purple">Подробнее</a>
+            </div>
+
+            <div class="item trinket">
+                <img src="pic/trinket-kedzuro.png" alt="#">
+                <a href="#" class="btn-purple">Подробнее</a>
+            </div>
+
+        </div> 
+    </div> 
+
+
+
+    <footer>
+        <div class="contacts">
+            <h2 class="footer-h2">Контакты</h2> 
+
+            <span>
+                <div class="vk">
+                    <img src="pic/vk.png" alt="#">
+                </div>
+    
+                <a href="https://vk.com" target="_blank" class="footer-href">Наш вк</a>
+            </span>
+            
+            <span class="telephone">
+                С нами можно связаться по телефонам: 
+            </span>
+            <span>+77907026</span>
+            <span>+77</span>
+        </div> 
+
+        <div class="cathegories">
+            <h2 class="footer-h2">Категории</h2>
+            <a href="#" class="footer-href">Чашки</a> 
+            <a href="#" class="footer-href">Футболки</a> 
+            <a href="#" class="footer-href">Брелки</a> 
+        </div>
+    </footer>
+
+    <script src="catalog.js"></script>
+</body>
+</html>

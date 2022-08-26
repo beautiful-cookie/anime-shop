@@ -1,0 +1,167 @@
+.slider-wrapper 
+{
+    display: flex; 
+    position: relative; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20vh; 
+    width: 100%;; 
+    height:55vh;
+    z-index: 1;
+} 
+
+.slider 
+{
+    display: flex; 
+    position: relative; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden;
+    max-width: 800px;
+    height: 100%;
+    box-shadow: 0 0 3px white;
+    border: 1px solid white;
+}
+
+.slider-items 
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 500%; 
+    height: 100%;
+}
+
+.slider-items .sl-item 
+{
+    min-width: 100%; 
+    transition: 0.8s;
+}
+
+.slider-items .sl-item img 
+{
+    max-width: 100%; 
+    height: auto;
+}
+
+
+.slider-items input 
+{
+    position: absolute; 
+    visibility: hidden;    
+}
+
+.laber-wrapper 
+{
+    display: flex;
+    justify-content: center;
+    position: absolute; 
+    bottom: 15px; 
+    gap: 10px;
+}
+
+.laber-wrapper .lb 
+{
+    width: 60px;  
+    height: 15px; 
+    border: 1px solid white; 
+    cursor: pointer; 
+    transition: all 0.5s ease;
+    background-color: #101010;
+}
+
+.laber-wrapper .lb:hover 
+{
+    background-color: white;
+}
+
+
+.promotion
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    background-color: #101010; 
+    opacity: 0.7;
+    color: white; 
+    z-index: 5; 
+    width: 100%; 
+    height: auto; 
+    top: 0; 
+    padding: 1%;
+    text-shadow: 0 0 2px white; 
+    letter-spacing: 0.15em; 
+    user-select: none; 
+    font-family: 'Lobster', cursive; 
+    font-size: 1.7em; 
+}
+
+
+#sl1:checked ~ .sl1 
+{
+    margin-left: 300%; 
+}
+
+#sl2:checked ~ .sl1 
+{
+    margin-left: 100%;
+}
+
+#sl3:checked ~ .sl1  
+{
+    margin-left: -100%;
+}
+
+#sl4:checked ~ .sl1  
+{
+    margin-left: -300%;
+}
+
+
+@media screen and (max-width: 850px) 
+{
+    .slider-wrapper 
+    {
+        height: 45vh;
+    }
+
+    .slider 
+    {
+        max-width: 500px; 
+    }
+
+    .promotion 
+    {
+        font-size: 1.2em; 
+    }
+}
+
+@media screen and (max-width: 570px) 
+{
+    .slider-wrapper 
+    {
+        height: 25vh;
+    }
+
+    .slider 
+    {
+        max-width: 300px; 
+    }
+
+    .laber-wrapper .lb 
+    {
+        width: 20px;  
+        height: 10px; 
+        border: 1px solid white; 
+        cursor: pointer; 
+        transition: all 0.5s ease;
+    }
+
+    .promotion 
+    {
+        font-size: 0.4em; 
+    }
+}
+
+

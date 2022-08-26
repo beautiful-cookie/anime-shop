@@ -1,0 +1,174 @@
+.filter-text-container 
+{
+    display: flex; 
+    gap: 3vw;
+    margin-top: 15vh; 
+    font-size: 1.3em; 
+}
+
+.filter-text 
+{
+    display: inline-block; 
+    color: white; 
+    height: 3vh; 
+    transition: 0.3s; 
+    text-decoration: none; 
+    font-family: 'Comfortaa', cursive; 
+}
+.filter-text:hover 
+{
+    text-shadow: 0 0 3px white;
+    text-decoration: underline; 
+}
+
+.show-all-goods 
+{
+    display: inline-block; 
+    color: white; 
+    height: 3vh; 
+    margin-left: 55vw; 
+    transition: 0.3s; 
+    text-decoration: none; 
+    font-family: 'Comfortaa', cursive; 
+}
+.show-all-goods:hover 
+{
+    text-shadow: 0 0 3px white;
+    text-decoration: underline; 
+}
+
+
+
+
+.filter-wrapper 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    max-width: 100%; 
+    height: auto; 
+    margin-top: 10vh;  
+    font-family: 'Literata', serif;
+}
+
+.filter-cathegories 
+{
+    display: flex; 
+    min-width: 80%; 
+    max-width: 80%; 
+    border-radius: 10px; 
+    border: 1px solid rgb(136, 136, 136); 
+    padding: 10px; 
+    background: linear-gradient(135deg, rgb(10, 8, 8), rgb(7, 7, 7));
+    color: white; 
+    font-size: 1em;
+}
+
+.column 
+{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    flex: 20%;
+    gap: 1vh; 
+
+}
+
+.main-item 
+{
+    font-family: 'Comfortaa', cursive; 
+    font-size: 1.2em; 
+}
+
+.filter-item 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-bottom: 1px solid rgba(163, 163, 163, 0.5);  
+    padding: 1%; 
+    opacity: 0.5; 
+    transition: 0.5s; 
+}
+
+.filter-item:hover
+{
+    opacity: 1; 
+    text-shadow: 0 0 1px white; 
+    border-bottom: 1px solid rgba(163, 163, 163, 0.5);  
+}
+
+
+@media screen and (max-width: 850px) 
+{
+    .show-all-goods 
+    {
+        margin-left: 40vw;
+    }
+
+    .filter-cathegories 
+    {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 690px) 
+{
+    .show-all-goods 
+    {
+        margin-left: 50vw;
+    }
+    .filter-text-container 
+    {
+        font-size: 0.8em; 
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+
+    .filter-cathegories 
+    {
+        max-width: 100%; 
+        min-width: 90%; 
+        padding: 20px; 
+        font-size: 0.69em;
+    }
+}
+
+@media screen and (max-width: 470px) 
+{
+    .filter-wrapper 
+    {
+        margin-top: 5vh; 
+    }
+    .filter-cathegories 
+    {
+        max-width: 90%; 
+        min-width: 80%; 
+        font-size: 0.5em;
+    }
+
+    .show-all-goods 
+    {
+        margin-left: 40vw;
+    }
+    .filter-text-container 
+    {
+        font-size: 0.7em; 
+    }
+}
+
+@media screen and (max-width: 400px) 
+{
+    .filter-cathegories 
+    {
+        font-size: 0.4em;
+    }
+
+    .show-all-goods 
+    {
+        margin-left: 30vw;
+    }
+}

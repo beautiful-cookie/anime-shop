@@ -1,0 +1,145 @@
+.btn-green 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    border: 1px solid white; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white; 
+    letter-spacing: 1px;
+    width: 80%; 
+    transition: 0.5s; 
+}
+
+.btn-green:hover
+{
+    color: #44ff00; 
+    border-color: #44ff00; 
+    box-shadow: 0 0 5px #44ff00; 
+}
+
+
+
+
+.btn-blue 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    border: 1px solid white; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white; 
+    letter-spacing: 1px;
+    width: 80%; 
+    transition: 0.5s; 
+}
+
+.btn-blue:hover
+{
+    color: #279FDA; 
+    border-color: #279FDA; 
+    box-shadow: 0 0 5px #279FDA; 
+}
+
+
+
+
+.btn-red 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    border: 1px solid white; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white; 
+    letter-spacing: 1px;
+    width: 80%; 
+    transition: 0.5s; 
+}
+
+.btn-red:hover
+{
+    color: red; 
+    border-color:red; 
+    box-shadow: 0 0 5px white;
+    text-shadow: 0 0 1px #ED1331; 
+}
+
+
+
+.btn-purple 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    border: 1px solid white; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white; 
+    letter-spacing: 1px;
+    width: 80%; 
+    transition: 0.5s; 
+}
+
+.btn-purple:hover
+{
+    color: #F14CE5; 
+    border-color: #F14CE5; 
+    box-shadow: 0 0 3px #F14CE5; 
+}
+
+
+
+.btn-yellow 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    border: 1px solid white; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white; 
+    letter-spacing: 1px;
+    width: 80%; 
+    transition: 0.5s; 
+}
+
+.btn-yellow:hover
+{
+    color: #ffee00; 
+    border-color: #ffee00; 
+    box-shadow: 0 0 3px #ffee00; 
+    text-shadow: 0 0 1px #ffee00; 
+}
+
+
+.btn-orange 
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    border: 1px solid white; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white; 
+    letter-spacing: 1px;
+    width: 80%; 
+    transition: 0.5s; 
+}
+
+.btn-orange:hover
+{
+    color: #FF7E0C; 
+    border-color: #FF7E0C; 
+    box-shadow: 0 0 3px #FF7E0C; 
+    text-shadow: 0 0 1px #FF7E0C; 
+}
